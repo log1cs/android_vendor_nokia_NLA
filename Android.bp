@@ -7,3 +7,10 @@ soong_namespace {
 	],
 }
 
+dex_import {
+	name: "audiosphere",
+	owner: "nokia",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
